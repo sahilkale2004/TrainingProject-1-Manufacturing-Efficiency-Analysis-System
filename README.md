@@ -1,6 +1,13 @@
-# Manufacturing Efficiency Prediction
+# 🏭 Manufacturing Efficiency Analysis System
 
-A machine learning system to predict manufacturing efficiency based on real-time sensor and process data.
+This project is an end-to-end Machine Learning web application designed to predict the production efficiency of manufacturing processes using real-time sensor and process data. 
+
+### ✨ Key Features
+- **FastAPI Backend**: Provides a blazing-fast REST API to serve predictions using a trained deep-learning model (`PyTorch`).
+- **Streamlit Frontend**: A dynamic, interactive dashboard where operators can input machine, material, and operational metrics to instantly visualize the predicted efficiency score.
+- **End-to-End ML Pipeline**: From processing datasets (scaling and encoding) via `scikit-learn` to training Neural Networks and serving them in modern web architectures.
+
+---
 
 ## Workflow
 
