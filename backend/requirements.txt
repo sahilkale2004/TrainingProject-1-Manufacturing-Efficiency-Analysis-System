@@ -6,5 +6,4 @@ joblib
 numpy
 pandas
 scikit-learn
-streamlit
 requests
