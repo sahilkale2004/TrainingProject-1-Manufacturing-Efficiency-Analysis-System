@@ -80,4 +80,3 @@ if submit:
     except Exception as e:
         st.error(f"Connection failed: {e}")
 
-st.sidebar.info("Workflow: \n1. Train model in Colab\n2. Move `.pth` and `.pkl` to `model/` \n3. Run backend then frontend.")
