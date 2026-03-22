@@ -61,7 +61,7 @@ if submit:
     }
     
     try:
-        backend_url = "http://localhost:8001/predict"
+        backend_url = "https://trainingproject-1.onrender.com/predict"
         response = requests.post(backend_url, json=payload)
         
         if response.status_code == 200:
